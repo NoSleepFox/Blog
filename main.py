@@ -12,10 +12,10 @@ from werkzeug.security import generate_password_hash, check_password_hash
 from forms import CreatePostForm, RegisterForm, LoginForm, CommentForm
 # Optional: add contact me email functionality
 # import smtplib
-from dotenv import load_dotenv
+# from dotenv import load_dotenv
 import os
 
-load_dotenv()
+# load_dotenv()
 SECRET_KEY = os.environ["SECRET_KEY"]
 DB_URI = os.environ["DB_URI"]
 
